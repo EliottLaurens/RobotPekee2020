@@ -45,9 +45,9 @@ CRobotPekeeD::~CRobotPekeeD(void)
 //******************************************************
 void CRobotPekeeD::avancer(float distance,int vitesseT)
 {
-	this->CRobotPekee::avancer(coeffD*distance,coeffV*vitesseT);
-	this->CRobotPekee::avancer(distance-coeffD*2*distance,vitesseT);
-	this->CRobotPekee::avancer(coeffD*distance,coeffV*vitesseT);
+	this->CRobotPekee::avancer((this->coeffD)*distance,(this->coeffV)*vitesseT);
+	this->CRobotPekee::avancer(distance-(this->coeffD)*2*distance,vitesseT);
+	this->CRobotPekee::avancer((this->coeffD)*distance,(this->coeffV)*vitesseT);
 }
 
 //******************************************************
@@ -60,9 +60,9 @@ void CRobotPekeeD::avancer(float distance,int vitesseT)
 //******************************************************
 void CRobotPekeeD::reculer(float distance,int vitesseT)
 {
-	this->CRobotPekee::reculer(coeffD*distance,coeffV*vitesseT);
-	this->CRobotPekee::reculer(distance-coeffD*2*distance,vitesseT);
-	this->CRobotPekee::reculer(coeffD*distance,coeffV*vitesseT);
+	this->CRobotPekee::reculer((this->coeffD)*distance,(this->coeffV)*vitesseT);
+	this->CRobotPekee::reculer(distance-(this->coeffD)*2*distance,vitesseT);
+	this->CRobotPekee::reculer((this->coeffD)*distance,(this->coeffV)*vitesseT);
 }
 
 //*********************************
