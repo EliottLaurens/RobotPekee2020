@@ -9,15 +9,15 @@
 #include "RobotPekeeD.h"
 
 //*********************************************************************
-// Méthode: CRobotPekeeD
-// Rôle: Constructeur de la classe RobotPekeeD qui initialise un robot
+// MÃ©thode: CRobotPekeeD
+// RÃ´le: Constructeur de la classe RobotPekeeD qui initialise un robot
 //       qui avance en limitant les risques de patinage
-// Paramètres d'entrée:
+// ParamÃ¨tres d'entrÃ©e:
 //		un_nom : Nom du robot
 //		une_adrIP : Adresse IP du robot
-//		un_coeffD : Coefficient à appliquer à la distance
-//		un_coeffV : Coefficient à appliquer à la vitesse
-// Paramètres transmis à la classe mère:
+//		un_coeffD : Coefficient Ã  appliquer Ã  la distance
+//		un_coeffV : Coefficient Ã  appliquer Ã  la vitesse
+// ParamÃ¨tres transmis Ã  la classe mÃ¨re:
 //		un_nom
 //		une_adrIP
 //*********************************************************************
@@ -28,46 +28,46 @@ CRobotPekeeD::CRobotPekeeD(string un_nom,string une_adrIP,float un_coeffD,float 
 }
 
 //********************************************
-// Méthode: ~CRobotPekeeD
-// Rôle: Destructeur de la classe RobotPekeeD
+// MÃ©thode: ~CRobotPekeeD
+// RÃ´le: Destructeur de la classe RobotPekeeD
 //********************************************
 CRobotPekeeD::~CRobotPekeeD(void)
 {
 }
 
 //******************************************************
-// Méthode: avancer
-// Rôle: Permet au robot d'avancer sur une distance en
+// MÃ©thode: avancer
+// RÃ´le: Permet au robot d'avancer sur une distance en
 //		 limitant ses risques de patinage
-// Paramètres d'entrée :
+// ParamÃ¨tres d'entrÃ©e :
 //		distance : Distance parcourue par le robot
-//		vitesseT : Vitesse à laquelle le robot avancera
+//		vitesseT : Vitesse Ã  laquelle le robot avancera
 //******************************************************
 void CRobotPekeeD::avancer(float distance,int vitesseT)
 {
-	this->CRobotPekee::avancer(coeffD*distance,coeffV*vitesseT);
-	this->CRobotPekee::avancer(distance-coeffD*2*distance,vitesseT);
-	this->CRobotPekee::avancer(coeffD*distance,coeffV*vitesseT);
+	this->CRobotPekee::avancer((this->coeffD)*distance,(this->coeffV)*vitesseT);
+	this->CRobotPekee::avancer(distance-(this->coeffD)*2*distance,vitesseT);
+	this->CRobotPekee::avancer((this->coeffD)*distance,(this->coeffV)*vitesseT);
 }
 
 //******************************************************
-// Méthode: reculer
-// Rôle: Permet au robot de reculer sur une distance en
+// MÃ©thode: reculer
+// RÃ´le: Permet au robot de reculer sur une distance en
 //		 limitant ses risques de patinage
-// Paramètres d'entrée :
+// ParamÃ¨tres d'entrÃ©e :
 //		distance : Distance parcourue par le robot
-//		vitesseT : Vitesse à laquelle le robot reculera
+//		vitesseT : Vitesse Ã  laquelle le robot reculera
 //******************************************************
 void CRobotPekeeD::reculer(float distance,int vitesseT)
 {
-	this->CRobotPekee::reculer(coeffD*distance,coeffV*vitesseT);
-	this->CRobotPekee::reculer(distance-coeffD*2*distance,vitesseT);
-	this->CRobotPekee::reculer(coeffD*distance,coeffV*vitesseT);
+	this->CRobotPekee::reculer((this->coeffD)*distance,(this->coeffV)*vitesseT);
+	this->CRobotPekee::reculer(distance-(this->coeffD)*2*distance,vitesseT);
+	this->CRobotPekee::reculer((this->coeffD)*distance,(this->coeffV)*vitesseT);
 }
 
 //*********************************
-// Méthode: avancer
-// Rôle: Permet au robot d'avancer
+// MÃ©thode: avancer
+// RÃ´le: Permet au robot d'avancer
 //*********************************
 void CRobotPekeeD::avancer()
 {
@@ -75,8 +75,8 @@ void CRobotPekeeD::avancer()
 }
 
 //**********************************
-// Méthode: avancer
-// Rôle: Permet au robot de reculer
+// MÃ©thode: avancer
+// RÃ´le: Permet au robot de reculer
 //**********************************
 void CRobotPekeeD::reculer()
 {
