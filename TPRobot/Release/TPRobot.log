@@ -1,0 +1,74 @@
+﻿La génération a démarré 10/12/2020 12:12:23.
+     1>Projet "C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\TPRobot\TPRobot.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>_PrepareForClean:
+         Suppression du fichier "Release\TPRobot.lastbuildstate".
+       InitializeBuildStatus:
+         Création de "Release\TPRobot.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\wany\maeva2004\Oxygen\pekeev1\c++\includes /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Position.cpp RobotPekee.cpp RobotPekeeD.cpp RobotPekeeLedOn.cpp RobotPekeeSuivi.cpp
+         main.cpp
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>main.cpp(220): warning C4101: 'e' : variable locale non référencée
+         Position.cpp
+         RobotPekee.cpp
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>RobotPekee.cpp(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>RobotPekee.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+         RobotPekeeD.cpp
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>RobotPekeeD.cpp(48): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>RobotPekeeD.cpp(50): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>RobotPekeeD.cpp(63): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+     1>RobotPekeeD.cpp(65): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+         RobotPekeeLedOn.cpp
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+         RobotPekeeSuivi.cpp
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+     1>c:\wany\maeva2004\oxygen\pekeev1\c++\includes\wstring.h(162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : voir la déclaration de 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\wany\maeva2004\Oxygen\pekeev1\c++\libs libRobotPekee.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcirt.lib /MANIFEST /ManifestFile:"Release\TPRobot.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.lib" /MACHINE:X86 Release\main.obj
+         Release\Position.obj
+         Release\RobotPekee.obj
+         Release\RobotPekeeD.obj
+         Release\RobotPekeeLedOn.obj
+         Release\RobotPekeeSuivi.obj
+            Création de la bibliothèque C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.lib et de l'objet C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.exp
+         Génération de code en cours
+         Fin de la génération du code
+         TPRobot.vcxproj -> C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\Release\TPRobot.exe;#1" /manifest Release\TPRobot.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\TPRobot.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\TPRobot.lastbuildstate".
+     1>Génération du projet "C:\Users\admin\Documents\Visual Studio 2010\Projects\TPRobot\TPRobot\TPRobot.vcxproj" terminée (rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.49
